@@ -99,10 +99,11 @@ Installing required packages
 
 
     sudo apt-get install git-core gnupg flex bison gperf build-essential \
-    zip curl zlib1g-dev libc6-dev lib32ncurses5-dev ia32-libs \
-    x11proto-core-dev libx11-dev lib32readline-gplv2-dev lib32z-dev \
-    libgl1-mesa-dev g++-multilib mingw32 tofrodos python-markdown \
-    libxml2-utils xsltproc
+    zip curl zlib1g-dev:i386 libc6-dev lib32ncurses5-dev ia32-libs \
+    x11proto-core-dev libx11-dev:i386 lib32readline-gplv2-dev lib32z-dev \
+    libgl1-mesa-dev:i386 g++-multilib mingw32 tofrodos python-markdown \
+    libxml2-utils xsltproc libncurses5-dev:i386 libreadline6-dev:i386 \
+	pngcrush schedtool
     
     
 On Ubuntu 10.10:
